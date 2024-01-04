@@ -18,7 +18,8 @@ public class Testcase3 extends Sewrappers1 {
 		
 			report1.setTCDesc("Validating spice jet link for oneway ");
 			launchBrowser("https://www.spicejet.com/");
-			//SJ.logIn("8072230663","Ashwin@99");
+			SJ.logIn("8072230663","Ashwin@99");
+			Thread.sleep(5000);
 			SJ.oneWay();
 			SJ.payment("1234567890987654","Karunagaran","12","2024", "663");
 			closeAllBrowsers();

@@ -18,8 +18,9 @@ public class Testcase4 extends Sewrappers1 {
 		
 			report1.setTCDesc("Validating spice jet link for roundway ");
 			launchBrowser("https://www.spicejet.com/");
-			//SJ.logIn("8072230663","Ashwin@99");
+			SJ.logIn("8072230663","Ashwin@99");
 			//driver.navigate().refresh();
+			Thread.sleep(5000);
 			
 			SJ.RoundWay();
 			SJ.payment("1234567890987654","Karunagaran","12","2024", "663");

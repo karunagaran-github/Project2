@@ -1,6 +1,7 @@
 package com.project.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import com.project.utils.Sewrappers1;
@@ -29,7 +30,9 @@ public class RoundwayPage extends Sewrappers1{
 	
 	public void clickRound() {
 		waitForElement(Round,20);
-		clickElement(Round); 
+		Actions act = new Actions(driver);
+		act.click(Round).perform();
+		 
 	}
 	
 	public void clickDateD() {
@@ -54,5 +57,7 @@ public class RoundwayPage extends Sewrappers1{
 		waitForElement(SearchFlight,20);
 		clickElement(SearchFlight); 
 	}
+	
+	
 
 }
