@@ -25,6 +25,7 @@ public class Testcase1 extends Sewrappers1 {
 			SJ.signUp("Mr","Karunagaran","Elango","India ","8072230663","karunagaranelango@gmail.com","Ashwin@99","Ashwin@99");
 			
 			System.out.println("Success");
+			closeAllBrowsers();
 			
 	}
 	

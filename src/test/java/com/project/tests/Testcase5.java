@@ -21,7 +21,9 @@ public class Testcase5 extends Sewrappers1{
 			//SJ.logIn("8072230663","Ashwin@99");
 			//driver.navigate().refresh();
 			
-			SJ.checkin("XAT2033111","Karunagaran");			
+			SJ.checkin("XAT2033111","Karunagaran");	
+			closeAllBrowsers();
+
 	}
 
 

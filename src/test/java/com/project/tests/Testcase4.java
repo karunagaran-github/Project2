@@ -23,7 +23,8 @@ public class Testcase4 extends Sewrappers1 {
 			
 			SJ.RoundWay();
 			SJ.payment("1234567890987654","Karunagaran","12","2024", "663");
-						
+			closeAllBrowsers();
+			
 	}
 
 

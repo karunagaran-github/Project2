@@ -23,6 +23,8 @@ public class Testcase2 extends Sewrappers1 {
 			getTextAlert();
 
 			System.out.println("Success");
+			closeAllBrowsers();
+
 			
 	}
 

@@ -21,7 +21,9 @@ public class Testcase6 extends Sewrappers1{
 			//SJ.logIn("8072230663","Ashwin@99");
 			//driver.navigate().refresh();
 			
-			SJ.Flightstatus("121");			
+			SJ.Flightstatus("121");	
+			closeAllBrowsers();
+
 	}
 
 }

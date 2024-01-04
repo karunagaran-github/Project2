@@ -21,6 +21,7 @@ public class Testcase3 extends Sewrappers1 {
 			//SJ.logIn("8072230663","Ashwin@99");
 			SJ.oneWay();
 			SJ.payment("1234567890987654","Karunagaran","12","2024", "663");
-			
+			closeAllBrowsers();
+
 	}
 }
