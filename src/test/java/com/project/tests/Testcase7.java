@@ -21,7 +21,9 @@ public class Testcase7  extends Sewrappers1{
 			//SJ.logIn("8072230663","Ashwin@99");
 			//driver.navigate().refresh();
 			
-			SJ.manageBooking("XAT22345u","karunagaran@gmail.com");			
+			SJ.manageBooking("XAT22345u","karunagaran@gmail.com");
+			closeAllBrowsers();
+
 	}
 
 }

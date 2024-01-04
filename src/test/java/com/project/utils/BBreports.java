@@ -23,7 +23,7 @@ public class BBreports {
 			try
 			{
 				sparkReports= new ExtentSparkReporter(System.getProperty("user.dir")+"/WebAutomationReport2.html");
-				sparkReports.config().setReportName("bestbuy Automation Report");
+				sparkReports.config().setReportName("spicejet report");
 				sparkReports.config().setDocumentTitle("Web Automation Report");
 
 				extentReports= new ExtentReports();
